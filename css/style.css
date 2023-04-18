@@ -5,6 +5,11 @@
 }
 
 /*utilities*/
+
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
 .contenitore{
     height: 100vh;
     width: 100%;
@@ -29,8 +34,23 @@ h1{
 
 /*main 1*/
 #main-1{
-
+    position: relative;
     background-color: red;
+}
+
+.nav{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+.numeri{
+    background-color: white;
+    padding: 7px 12px;
+    border-radius: 50%;
+    margin: 40px 20px 40px 20px;
 }
 
 .h1-giallo{
